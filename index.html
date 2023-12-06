@@ -9,16 +9,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&display=swap" rel="stylesheet">
-    <title>User Random</title>
+    <title>Random User</title>
 </head>
 
 <body>
 
     <h1>Random User Generator</h1>
+    
 
     <div class="contenedor">
         <img id="foto" src="" alt="imagen">
-        <h2>Hola mi nombre: <span id="nombre"></span></h2>
+        <h2>Hola mi nombre es: <span id="nombre"></span></h2>
         <div class="datos">
             <p>Correo: <span id="correo"></span></p>
             <p>Celular: <span id="telefono"></span></p>
@@ -26,7 +27,18 @@
     </div>
 
     <div class="boton">
-        <button id="boton">SIGUIENTE</button>
+        <button id="botonSiguiente" onclick="siguienteUsuario()">Siguiente</button>
+        <button id="botonGuardar" onclick="guardarUsuario()">Guardar</button>
+        <button id="cargarUsuarios" onclick="cargarUsuarios()">Ver Usuarios registrados</button>
+       
+    </div>
+
+    <div id="usuarios-container">
+        <h2>Usuarios Registrados</h2>
+        <div id="usuarios-grid">
+            <!-- contenido  de usuarios registrados-->
+        </div>
+        
     </div>
 
     <script src="script.js"></script>
