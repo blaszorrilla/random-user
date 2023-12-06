@@ -11,7 +11,7 @@ La información generado como el nombre, el correo electrónico, el número de t
 - Importar la base de datos MySQL 'randomuser.sql' ubicada en la carpeta data
 - Levantar el servidor en express
 ```node server.js```
-- Abrir en el navegador el archivo index.html
+- Abrir en el navegador el archivo index.html.
 **Demo**
 ![Animation](https://github.com/blaszorrilla/random-user/assets/37028794/d211c029-5bb0-46e4-a440-03a29dfc977f)
 
